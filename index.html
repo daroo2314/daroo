@@ -66,6 +66,16 @@
             padding: 2px;
             width: 130px;         
         }
+        iframe {
+            margin-top: 100px;
+           
+            margin-left: 6vw;
+        }
+        .roar {
+            display: flex;
+            margin-right: 10vw;
+            position: relative;
+        }
        /*mobile first*/
 
         @media(min-width: 768px) and (max-width:1024px) {
@@ -113,6 +123,18 @@
                 position: absolute;
                 width:150px;
                 margin-right:50px;
+            }
+            .roar {
+                display: flex;
+                margin-right: 10vw;
+                justify-content:flex-start;
+                }
+                padding-right: 3%;
+            }
+            iframe {
+                margin-top: 100px;              
+                display: flex;
+                justify-content: center;
             }
         }
 
@@ -175,6 +197,8 @@
       <button type="button" onclick="window.open('http://kukakusa.gabia.io/')">I'm Feeling Lucky</button>
     </div>
     </form>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/VeD1M5Az9ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <div class="roar">
+      <iframe width="450" height="315" src="https://www.youtube.com/embed/VeD1M5Az9ps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </div>
   </body>
 </html>
